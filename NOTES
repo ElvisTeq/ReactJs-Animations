@@ -1,0 +1,18 @@
+## 1 Preparing Project
+
+- "Modal.css"
+  => (Added)
+  => ".ModalOpen" to display: block (display content)
+  => ".ModalClosed" to display: none (hide content)
+
+- "Backdrop.css"
+  => (Added)
+  => ".BackdrpOpen" to display: block (display content)
+  => ".BackdropClosed" to display: none (hide content)
+
+- "Backdrop.js" & "Modal.css"
+  => Added CSS Component <className={ if true/faalse }>
+
+- "App.js"
+  => Created State
+  => Created Functions To Toggle Modal/Backdrop True/False
