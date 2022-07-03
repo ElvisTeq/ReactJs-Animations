@@ -14,5 +14,7 @@
   => Added CSS Component <className={ if true/faalse }>
 
 - "App.js"
-  => Created State
-  => Created Functions To Toggle Modal/Backdrop True/False
+  => Created State (true/false) to toggle <Modal> <Backdrop>
+  => Created Functions To Toggle State True/False
+
+////////////////////////////////////////////////////////////////////////////////////////

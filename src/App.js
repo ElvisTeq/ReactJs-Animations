@@ -18,6 +18,10 @@ class App extends Component {
     this.setState({ modalIsOpen: false });
   };
 
+  // <Backdrop> & <Modal> => not active because initial state "false"
+  // <button> => set State "True" (Show <Backdrop> & <Modal>)
+  // <Modal> => Has close <button> to set State "False" (Hide <Backdrop> & <Modal>)
+
   render() {
     return (
       <div className="App">
