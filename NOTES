@@ -22,7 +22,7 @@
 ## 2 Using CSS Transitions
 
 - "Modal.css"
-  => Animating With CSS
+  => Implementing CSS Transitions
 
 ------------------------------------------------ transition: all 0.3 ease-out
 transition/make effect changes every 0.3 seconds
@@ -30,6 +30,25 @@ transition/make effect changes every 0.3 seconds
 ------------------------------------------------ transform: translateY(%)
 transform => apply effect
 translateY(%) => slice from Y axis effect
+(0) => original pos
+(100%) => moves up
+(-100%) => moves down
 
 **\*** display: "block"
 => (removed) It was interfering with the effects
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 3 Using CSS Animations
+
+- "Modal.css"
+  => Implementing CSS Animations
+
+------------------------------------------------ @keyframes **_anyName_** { %{} %{} }
+To apply effects on a specific % of the animation
+(0% = start) (100% = end)
+
+------------------------------------------------ animation: **_anyName_** 0.4s ease-out forwards;
+0.4s => time of animation
+ease-out => animation effect
+forwards => keep @keyframes effect to (%100)
