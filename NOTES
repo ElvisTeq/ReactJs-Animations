@@ -18,3 +18,18 @@
   => Created Functions To Toggle State True/False
 
 ////////////////////////////////////////////////////////////////////////////////////////
+
+## 2 Using CSS Transitions
+
+- "Modal.css"
+  => Animating With CSS
+
+------------------------------------------------ transition: all 0.3 ease-out
+transition/make effect changes every 0.3 seconds
+
+------------------------------------------------ transform: translateY(%)
+transform => apply effect
+translateY(%) => slice from Y axis effect
+
+**\*** display: "block"
+=> (removed) It was interfering with the effects
