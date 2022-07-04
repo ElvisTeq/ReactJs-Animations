@@ -140,3 +140,30 @@ enter => "entering"
 exit => "exiting"
 
 **\*** CSS animation timing Should match the animationTiming Function time **\***
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 9 Transition Events
+
+- To Execute Functions During a Transition
+
+- "App.js"
+  => Implemented Transition Events Examples
+
+------------------------------------------- <Transition onEnter={() => {}}>
+Executes when 0%
+
+------------------------------------------- <Transition onEntering={() => {}}>
+Executes when 1% ~ 99%
+
+------------------------------------------- <Transition onEntered={() => {}}>
+Executes when 100%
+
+------------------------------------------- <Transition onExit={() => {}}>
+Executes when 0%
+
+------------------------------------------- <Transition onExiting={() => {}}>
+Executes when 1% ~ 99%
+
+------------------------------------------- <Transition onExited={() => {}}>
+Executes when 100%
