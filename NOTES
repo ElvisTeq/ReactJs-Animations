@@ -221,3 +221,21 @@ classNames={{
  appear: "",  (When CSS is first mounted to the DOM) (Optional to add)
  appearActive: "",  (When CSS is first mounted to the DOM)) (Optional to add)
 }}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 12 Animating Lists
+
+- "List.js"
+  => Implementing {TransitionGroup} to replace <ul> So we can Animate one Item in the List
+  => Using {CSSTransition} to add animation to <li> JSX
+
+- "List.css"
+  => Added State Effects for <CSSTransition classNames=''>
+
+------------------------------------------------ import { TransitionGroup } from "react-transition-group";
+Used for <ul> only combined with { CSSTransition } to animate the <li> elements
+
+**\*** {TransitionGroup} Will automatically Give the <in={}> property to {CSSTransition} **\***
+
+- Automatically detects which <li> item is Created/Deleted to animate

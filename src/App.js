@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Transition from "react-transition-group/Transition";
+import { Transition } from "react-transition-group";
 
 import "./App.css";
 import Modal from "./components/Modal/Modal";
