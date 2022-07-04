@@ -204,3 +204,20 @@ classNames="fade-slide"> // CSS animation State
 
 - .anyName-exit-active { CSS here }
   => onExiting % onExited
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 11 Using Custom CSS Classnames in <CSSTransition>
+
+- "Modal.js"
+  => Usinc Custom <CSSTransition classNames={{}}>
+
+**\*** classNames={{}} custom states **\***
+classNames={{
+ enter: "",
+ enterActive: "",
+ exit: "",
+ exitActive: "",
+ appear: "",  (When CSS is first mounted to the DOM) (Optional to add)
+ appearActive: "",  (When CSS is first mounted to the DOM)) (Optional to add)
+}}
