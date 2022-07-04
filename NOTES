@@ -66,3 +66,42 @@ forwards => keep @keyframes effect to (%100)
 
 - "Modal.js"
   => closeModal animation not working (website not re-rendering when closing Modal)
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 5 Using ReactTransition Group
+
+- "App.js"
+  => Implementing { Transition } from "react-transition-group/Transition";
+  => Created <Button> To toggle state (true/false)
+
+----------------------------------------------- npm i react-transition-group --save
+3rd party package for better animation
+
+----------------------------------------------- import { Transition } from "react-transition-group/Transition";
+<Transition
+in={this.state.showBlock} // (true/false)
+timeout={1000} // (Total animation time)
+mountOnEnter // (Add to DOM if true)
+unmountOnExit // (Remove from DOM if false)
+
+> {(state) => (
+
+  <div
+    style={{
+      backgroundColor: "red",
+      width: 100,
+      height: 100,
+      margin: "auto",
+      transition: "opacity 1s ease-out", // (Effect)
+       opacity: state === "exiting" ? 0 : 1, // (Apply Effect on Transition "state")
+    }}/>
+)}            
+</Transition>
+
+**\*** <Transition> Contains 4 Animation States **\***
+
+- "entering"
+- "entered"
+- "exiting"
+- "exited"
