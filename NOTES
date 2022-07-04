@@ -126,3 +126,17 @@ unmountOnExit // (Remove from DOM if false)
 
 - "Modal.js"
   => Using <Transition> To Toggle Modal Animations & Show/Hide
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 8 Animation Timings
+
+- "Modal.js"
+  => Adding Different Timers for Entering & Exiting
+  => Added animationTiming function for <Transition timeout={animationTimingFunc}>
+
+------------------------------------------- const animationTiming = { enter: 400, exit: 1000 }
+enter => "entering"
+exit => "exiting"
+
+**\*** CSS animation timing Should match the animationTiming Function time **\***
