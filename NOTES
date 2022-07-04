@@ -116,3 +116,13 @@ unmountOnExit // (Remove from DOM if false)
 
 - "Modal.js"
   => Handling the <Transition> States To Show/Hide Modal
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 7 Wrapping the Transition Component
+
+- "App.js"
+  => Change "Modal.js" to always display
+
+- "Modal.js"
+  => Using <Transition> To Toggle Modal Animations & Show/Hide
