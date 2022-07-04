@@ -239,3 +239,17 @@ Used for <ul> only combined with { CSSTransition } to animate the <li> elements
 **\*** {TransitionGroup} Will automatically Give the <in={}> property to {CSSTransition} **\***
 
 - Automatically detects which <li> item is Created/Deleted to animate
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 13 Alternative Animation Packages
+
+- React motion
+  => Complex to use, Has automatic timeout animation
+
+- React move
+  => Works with Objects to describe State Animations
+  => Has Complex animations (more animations)
+
+- React router transition
+  => Animate between route transitions
