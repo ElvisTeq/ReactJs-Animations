@@ -52,3 +52,17 @@ To apply effects on a specific % of the animation
 0.4s => time of animation
 ease-out => animation effect
 forwards => keep @keyframes effect to (%100)
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 4 CSS Transition & Animations Limitations
+
+\*\* Fixing Invisible Modal Blocking Buttons \*\*
+
+- "App.js"
+  => Using { State } To Display <Modal> <Backdrop>
+
+## Limitations
+
+- "Modal.js"
+  => closeModal animation not working (website not re-rendering when closing Modal)
