@@ -167,3 +167,40 @@ Executes when 1% ~ 99%
 
 ------------------------------------------- <Transition onExited={() => {}}>
 Executes when 100%
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 10 The CSSTransition Component
+
+- "Modal.js"
+  => Replacing <Transition> with <CSSTransition>
+  => Using <CSSTransition classNames="anyName"> To set animation with CSS
+
+- "Modal.css"
+  => Added the <CSSTransition classNames="anyName"> animation states
+
+------------------------------------------- import CSSTransition from "react-transition-group/CSSTransition";
+<CSSTransition
+mountOnEnter
+unmountOnExit
+in={props.show}
+timeout={animationTiming}
+classNames="fade-slide"> // CSS animation State
+
+<div>Whatever Here To apply CSS Effects</div>
+
+</CSSTransition>
+
+**\*** classNames="" Animation States **\***
+
+- .anyName-enter { CSS here }
+  => On start, 1 frame
+
+- .anyName-enter-active { CSS here }
+  => onEntering & onEntered
+
+- .anyName-exit { CSS here }
+  => On Exit, 1 frame
+
+- .anyName-exit-active { CSS here }
+  => onExiting % onExited
