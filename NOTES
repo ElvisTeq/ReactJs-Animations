@@ -105,3 +105,14 @@ unmountOnExit // (Remove from DOM if false)
 - "entered"
 - "exiting"
 - "exited"
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## 6 Using the Transition Component For the Modal
+
+- "App.js"
+  => Using { <Transition> } For the Modal
+  => Passing <Transition> State to the Modal Component
+
+- "Modal.js"
+  => Handling the <Transition> States To Show/Hide Modal
